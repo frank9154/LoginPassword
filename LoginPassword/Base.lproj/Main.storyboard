@@ -32,25 +32,27 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PY-eB-Oqg">
                                         <rect key="frame" x="0.0" y="116" width="335" height="34.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Sign In"/>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="251" translatesAutoresizingMaskIntoConstraints="NO" id="ciP-sG-QhR">
-                                <rect key="frame" x="20" y="344.5" width="335" height="20.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="FNY-I0-J1h">
+                                <rect key="frame" x="20" y="334.5" width="335" height="28.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Huz-2z-7kt">
-                                        <rect key="frame" x="0.0" y="0.0" width="42.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfb-Tw-h0c">
-                                        <rect key="frame" x="293.5" y="0.0" width="41.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MmI-XY-UVb">
+                                        <rect key="frame" x="0.0" y="0.0" width="133.5" height="28.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Forgot User Name?" titleAlignment="leading">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ima-yw-cQ5">
+                                        <rect key="frame" x="210" y="0.0" width="125" height="28.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Forgot Password?" titleAlignment="trailing">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
+                                        </buttonConfiguration>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -59,10 +61,10 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ing-WY-COB" secondAttribute="trailing" constant="20" id="5r3-Cf-MJu"/>
                             <constraint firstItem="ing-WY-COB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="K0K-oi-tYk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ciP-sG-QhR" secondAttribute="trailing" constant="20" id="OBN-qo-LM6"/>
+                            <constraint firstItem="FNY-I0-J1h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SdD-fv-ls2"/>
+                            <constraint firstItem="FNY-I0-J1h" firstAttribute="top" secondItem="ing-WY-COB" secondAttribute="bottom" constant="20" id="fzp-8R-tih"/>
                             <constraint firstItem="ing-WY-COB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="phK-mA-f0C"/>
-                            <constraint firstItem="ciP-sG-QhR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rqf-nm-D7m"/>
-                            <constraint firstItem="ciP-sG-QhR" firstAttribute="top" secondItem="ing-WY-COB" secondAttribute="bottom" constant="30" id="zij-cb-P9F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FNY-I0-J1h" secondAttribute="trailing" constant="20" id="skf-8E-vzu"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rAA-wf-jDn"/>
