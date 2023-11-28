@@ -97,10 +97,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NHX-bg-UWS">
-                                <rect key="frame" x="127" y="120" width="121" height="36"/>
+                                <rect key="frame" x="123.5" y="120" width="128" height="36"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSP-oK-BE4">
-                                        <rect key="frame" x="0.0" y="0.0" width="121" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSP-oK-BE4">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -114,8 +114,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="logOutButton" destination="agl-Om-2gx" eventType="touchUpInside" id="IYS-KW-Wp2"/>
-                                    <segue destination="Iqz-x9-ZKi" kind="unwind" unwindAction="unwindFor:" id="91o-Oq-Jzi"/>
+                                    <segue destination="Iqz-x9-ZKi" kind="unwind" unwindAction="unwindFor:" id="1G8-3K-IRk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -128,9 +127,6 @@
                             <constraint firstItem="g1Z-6f-Uer" firstAttribute="centerX" secondItem="kQj-ev-q8c" secondAttribute="centerX" id="qII-OH-3yT"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="welcomeLabel" destination="ZSP-oK-BE4" id="1XK-Eh-rPJ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7rP-oc-knt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Iqz-x9-ZKi" userLabel="Exit" sceneMemberID="exit"/>
