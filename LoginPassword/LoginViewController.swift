@@ -44,20 +44,6 @@ final class LoginViewController: UIViewController {
      return true
      }
      
-    
-    /*override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        guard userName.text == user, passwordText.text == password else {
-            showAlert(
-                title: "Invalid login or password",
-                message: "Please, enter correct login and password") {
-                    self.passwordText.text = ""
-                }
-            return false
-        }
-        return true
-    }
-    */
-    
     @IBAction func forgotPasswordAction(_ sender: UIButton) {
         showAlert(withTitle: "Oops!", andMessage: "Your password is 111")
     }
